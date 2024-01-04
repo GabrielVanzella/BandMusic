@@ -1,0 +1,79 @@
+h1 {
+    font-family: Roboto;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .bg-login {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/bg-login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+  .form-login {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    /* Aumente a largura do formulário para 80% da largura do elemento pai */
+    max-width: 400px;
+    /* Defina uma largura máxima para o formulário, se desejar */
+  }
+  
+  #ccid_form_sub {
+    float: right;
+  
+  
+  }
+  
+  #senha-esquecimento {
+    text-decoration: underline;
+    color: grey;
+  }
+  
+  .conta{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+  }
+  
+  .conta a{
+    color: red;
+    text-decoration: none;
+  }
+  
+  #pesquisar{
+   padding-right: 15px;
+    margin-top: 15px;
+  }
+  
+  #navbarScroll ul li a {
+    color: grey;
+  }
+  
+  .linha{
+    width: 1px; /* Largura da linha vertical */
+    height: 40px; /* Altura da linha vertical */
+    background-color: grey; /* Cor da linha vertical */
+    margin: 20;
+  }
+  
+  
