@@ -12,7 +12,7 @@
     <form name="formCadastrar" id="formCadastrar" method="post" action="" class="form-login">
         @csrf 
         <h1 class="text-center">Inscrever-se</h1>
-        <p class="conta">já tem uma conta? <a href="/login">Faça login aqui </a></p>
+        <p class="conta">já tem uma conta ? <a href="/login">Faça login aqui </a></p>
         <input type="text" name="name" class="form-control" placeholder="Primeiro nome">
         <br>
         <input type="text" name="email" class="form-control" placeholder="Email">
